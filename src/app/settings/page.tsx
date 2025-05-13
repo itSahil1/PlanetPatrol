@@ -13,10 +13,10 @@ type UserSettings = {
 
 export default function SettingsPage() {
   const [settings, setSettings] = useState<UserSettings>({
-    name: 'Sahil',
-    email: 'ansarimdsahil80@gmail.com',
-    phone: '+91 7678652133',
-    address: 'Wazirabad, New Delhi',
+    name: 'Deepak Pandey',
+    email: 'deepakpandeyofficially@gmail.com',
+    phone: '+91 9667750250',
+    address: 'Burari, New Delhi',
     notifications: true,
   })
 
